@@ -1,3 +1,7 @@
+/***************
+ * mongodb连接文件 *
+ ***************/
+
 const mongoose = require('mongoose');
 const dbConfig = require('../config/dataSource.json')[process.env.NODE_ENV];
 const mongoConfig = dbConfig.mongodb;

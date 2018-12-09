@@ -1,3 +1,7 @@
+/**********
+ * 用户模型文件 *
+ **********/
+
 const mongoConn = require('../utils/mongodb');
 const ObjectId = mongoConn.Schema.Types.ObjectId;
 

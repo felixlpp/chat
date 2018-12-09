@@ -1,3 +1,7 @@
+/**********
+ * 聊天记录模型 *
+ **********/
+
 const mongoConn = require('../utils/mongodb');
 const ObjectId = mongoConn.Schema.Types.ObjectId;
 

@@ -1,3 +1,7 @@
+/**************
+ * http服务启动文件 *
+ **************/
+
 const http = require('http');
 const url = require('url');
 const Controller = require('./controller/user');

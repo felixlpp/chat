@@ -1,3 +1,7 @@
+/************
+ * 用户相关操作函数 *
+ ************/
+
 const userSchema = require('../model/user');
 
 class UserController {

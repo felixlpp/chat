@@ -1,3 +1,7 @@
+/****************
+ * socket相关操作函数 *
+ ****************/
+
 const magicConf = require('../utils/magicValue');
 const code = magicConf.statusCode;
 const magicValue = magicConf.common;
