@@ -1,0 +1,46 @@
+{
+  "production": {
+    "mongodb": {
+      "host": "47.75.87.11",
+        "port": "27017",
+        "db": "socket",
+        "autoIndex": false,
+        "user": "",
+        "pwd": ""
+    },
+    "mysql": {
+      "host": "",
+      "port": "",
+      "db": "",
+      "user": "",
+      "pwd": ""
+    },
+    "redis": {
+      "loginKey": "login",
+      "host": "47.75.87.11",
+      "port": "6379"
+    }
+  },
+  "dev": {
+    "mongodb": {
+      "host": "47.75.87.11",
+      "port": "27017",
+      "db": "socket",
+      "autoIndex": true,
+      "user": "",
+      "pwd": ""
+  },
+  "mysql": {
+      "host": "",
+      "port": "",
+      "db": "",
+      "user": "",
+      "pwd": ""
+  },
+  "redis": {
+      "loginKey": "login",
+      "host": "47.75.87.11",
+      "port": "6379"
+  }
+}
+}
